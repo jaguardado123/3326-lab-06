@@ -6,27 +6,23 @@ Same as the previous labs, you need to set up your workspace (class and main() m
 
 ## Let's get started!
 
-First, let's look at the name of our .java file in the src/ directory and name your class accordingly and remember to make it **public**. Next, **create your main() method inside your class**.
+First, let's look at the name of our .java file in the `src/` directory and name your class accordingly and remember to make it `public`. Next, **create your main() method inside your class**.
 
 Now let's begin!
 
-## Decision Making Statements
+### Decision Making Statements
 
 Exactly the same as C++. But let's refresh anyways. 
 
 Java has the same decision making statements as C++: `if`, `else`, `else if`, and `switch`.
 
-Using a single `if` statement gives the programmer the option to execute a block of code, if the specified condition is met.
+<img src="img/decision-making.jpeg" width="400px">
 
-Using both `if` and `else` statements gives the programmer the option to execute one-of-two blocks of code depending on whether the specified condition was met or not.
+For more information on decision making in Java visit: https://www.w3schools.com/java/java_conditions.asp  and https://www.w3schools.com/java/java_switch.asp
 
-Using `if`, `else if`, and `else` statements gives the programmer the option to execute one-of-multiple blocks of code depending on which condition was met.
+## Your Assignment
 
-For more information on type casting in Java visit: https://www.w3schools.com/java/java_conditions.asp 
-
-## Your program
-
-**Assigning a Letter Grade**
+### Letter Grade Calculator
 
 Assume you are a school teacher working at Texas High and you have decided to write a program to help you assign a letter grade to your students based on their scores.
 
@@ -41,17 +37,12 @@ Here is the criteria for assigning a letter grade:
 | 90+ | A |
 
 **Remember:** Grade scores usually invovle decimal values.
+
 **Note:** If the teacher inputs a negative number, let them know "Oops you input a negative value".
 
-Your code should look like:
+**Expected Output:**
 
-```
-Welcome to my Letter Grade Calculator.
-
-Input a score: 79.99999
-
-The letter grade is C.
-```
+<img src="img/lab6-expected.png" width="400px">
 
 ## Submit your assignment
 
