@@ -1,4 +1,4 @@
-# Lab Assignment 06
+# Lab Assignment 07
 
 In this lab you will practice working with decision making statements.
 
