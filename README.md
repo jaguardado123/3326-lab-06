@@ -30,10 +30,10 @@ Here is the criteria for assigning a letter grade:
 
 | Score Range | Letter Grade |
 | ---- | ---- |
-| 0 - 59 | F |
-| 60 - 69 | D |
-| 70 - 79 | C |
-| 80 - 89 | B |
+| [ 0 - 60 ) | F |
+| [ 60 - 70 ) | D |
+| [ 70 - 80 ) | C |
+| [ 80 - 90 ) | B |
 | 90+ | A |
 
 **Remember:** Grade scores usually invovle decimal values.
