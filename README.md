@@ -37,23 +37,59 @@ You can also compare Boolean (true or false) values using logical operators. Log
 | ll | OR - Returns true if at least one statement is true. |
 | `!` | NOT - Reverses the result. |
 
+### Comparing Strings
 
-For more information on comparison & logical operators in Java visit: https://www.w3schools.com/java/java_operators.asp 
+Strings can be compared in various methods. To compare if two strings are equal to one another we can use the == operator, the equals() method, or the compareTo() method.
+
+| Expression | Result |
+| ----- | ----- |
+| "Bob" == "bob" | <strong>false</strong> |
+| word = "Bob" <br> word.equals("Bob") | <strong>true</strong> |
+| word = "Bob" <br> word.compareTo("Arvin") | <strong>1</strong> – a positive value means "Bob" > "Arvin" |
+| word = "Bob" <br> word.compareTo("Kobe") | <strong>-9</strong> – a negative value means "Bob" < "Kobe" |
+| word = "Bob" <br> word.compareTo("Bob") | <strong>0</strong> – means "Bob" == "Bob" |
+
+For more information on comparison & logical operators in Java visit: https://www.w3schools.com/java/java_operators.asp and https://www.w3schools.com/java/ref_string_compareto.asp 
 
 ## Your Assignment
 
-### Comparison Operators Practice
+### Conditional Expression Practice
 
 For this lab assignment I want you to practice working with comparison and Boolean/logical operators. 
 
-Create your own example for **each comparison and Booelan operator** in a print method.
+Create the corresponding conditional expression to match the statement inside each println method. Write your expression inside the parenthesis.
 
-**Example:**
+Copy the code snippet below and paste it inside your **main() method** in your java file.
+
 ```java
-// Example for == operator.
-System.out.println(" 'A' == 'a' : " + ('A' == 'a'));
+// Practice comparing characters.
+System.out.println("Is b less than B ? " + () );
+
+// Practice comparing numbers.
+System.out.println("Is 25.001 greater than or equal to 25.0f ? " + () );
+
+// Practice comparing characters and numbers.
+System.out.println("Is A equal to 65 ? " + () );
+
+// Practice comparing multiple numbers.
+int x = 5;
+System.out.println("Is x greater than -10 and is x less than 10 ? " + () );
+
+// Practice comparing strings.
+String word = "Hello";
+System.out.println("Is word equal to 'hello' ? " + () );
+
+// Practice comparing strings.
+word = "Aardvark"; 
+System.out.println("Is word greater than 'Zoo' ? " + () );
+
+// Practice comparing a character from a string.
+word = "hello";
+System.out.println("Is the first letter of word equal to h ? " + () );
 ```
 
 ## Submit your assignment
 
-To submit your lab assignment click on the **Source Control** icon (3 circles with 2 lines) on your leftside navbar. Next, click on the **+** symbol next to **Changes** to stage your changes. Lastly, add a commit message (ex: "First commit") and click **Commit** then **Sync Changes**. And you're done!
+[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_06.pdf)
+
+[How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
