@@ -62,38 +62,47 @@ Create the corresponding conditional expression to match the statement inside ea
 Copy the code snippet below and paste it inside your **main() method** in your java file.
 
 ```java
-// Problem 1. Is 'A' greater than 'a'?
+// Problem 1. Is 25.001f equal to 25.001?
 System.out.println( /* Write your expression here. */ );
 
-// Problem 2. Is 25.001f equal to 25.001?
+// Problem 2. Is 'C' equal to 67?
 System.out.println( /* Write your expression here. */ );
 
-// Problem 3. Is 'C' equal to 67?
-System.out.println( /* Write your expression here. */ );
-
-// Problem 4. Is x greater than -10 and less than 10? 
+// Problem 3. Is the value inside x greater than -10 and less than 10? 
 int x = 0;
 System.out.println( /* Write your expression here. */ );
 
-// Problem 5. Is y either greater than 25 or less than -25? 
+// Problem 4. Is the value inside y either greater than 25 or less than -25? 
 int y = -11;
 System.out.println( /* Write your expression here. */ );
 
-// Problem 6. Is word equal to "hello"?
+// Problem 5. Is the value inside word equal to "hello"?
 String word = "Hello";
 System.out.println( /* Write your expression here. */ );
 
-// Problem 7. Is animal greater than "Zebra"?
+// Problem 6. Is the value inside animal greater than "Zebra"?
 String animal = "Aardvark"; 
 System.out.println( /* Write your expression here. */ );
 
-// Problem 8. Is food less than "Apple Pie"?
-String food = "Pizza"; 
+// Problem 7. Is the value inside food less than "Pizza"?
+String food = "Hamburger"; 
 System.out.println( /* Write your expression here. */ );
 
-// Problem 9. Is the first character of letters equal to 'a'?
+// Problem 8. Is the first character of letters equal to 'a'?
 String letters = "abcdefg";
 System.out.println( /* Write your expression here. */ );
+
+/*
+Expected Output:
+false
+true
+true
+false
+false
+false
+true
+true
+*/
 ```
 
 ## Submit your assignment
