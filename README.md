@@ -62,30 +62,38 @@ Create the corresponding conditional expression to match the statement inside ea
 Copy the code snippet below and paste it inside your **main() method** in your java file.
 
 ```java
-// Practice comparing characters.
-System.out.println("Is b less than B ? " + () );
+// Problem 1. Is 'A' greater than 'a'?
+System.out.println( /* Write your expression here. */ );
 
-// Practice comparing numbers.
-System.out.println("Is 25.001 greater than or equal to 25.0f ? " + () );
+// Problem 2. Is 25.001f equal to 25.001?
+System.out.println( /* Write your expression here. */ );
 
-// Practice comparing characters and numbers.
-System.out.println("Is A equal to 65 ? " + () );
+// Problem 3. Is 'C' equal to 67?
+System.out.println( /* Write your expression here. */ );
 
-// Practice comparing multiple numbers.
-int x = 5;
-System.out.println("Is x greater than -10 and is x less than 10 ? " + () );
+// Problem 4. Is x greater than -10 and less than 10? 
+int x = 0;
+System.out.println( /* Write your expression here. */ );
 
-// Practice comparing strings.
+// Problem 5. Is y either greater than 25 or less than -25? 
+int y = -11;
+System.out.println( /* Write your expression here. */ );
+
+// Problem 6. Is word equal to "hello"?
 String word = "Hello";
-System.out.println("Is word equal to 'hello' ? " + () );
+System.out.println( /* Write your expression here. */ );
 
-// Practice comparing strings.
-word = "Aardvark"; 
-System.out.println("Is word greater than 'Zoo' ? " + () );
+// Problem 7. Is animal greater than "Zebra"?
+String animal = "Aardvark"; 
+System.out.println( /* Write your expression here. */ );
 
-// Practice comparing a character from a string.
-word = "hello";
-System.out.println("Is the first letter of word equal to h ? " + () );
+// Problem 8. Is food less than "Apple Pie"?
+String food = "Pizza"; 
+System.out.println( /* Write your expression here. */ );
+
+// Problem 9. Is the first character of letters equal to 'a'?
+String letters = "abcdefg";
+System.out.println( /* Write your expression here. */ );
 ```
 
 ## Submit your assignment
