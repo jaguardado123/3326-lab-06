@@ -105,8 +105,13 @@ true
 */
 ```
 
-## Submit your assignment
+<br>
 
-[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_06.pdf)
+**Grading Criteria:**
+| Criteria | Points |
+|---|---|
+| Used the correct operator or method for each conditional expression. (-10 points for each incorrect expression) | 80 |
+| File and class are named Comparisons | 10 |
+| Class is public | 10 |
 
 [How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
